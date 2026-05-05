@@ -103,15 +103,11 @@ body {
     left: 100px;
     width: 625px;
     height: 380px;
+    font-size: 22px;
     line-height: 1.25;
     overflow: hidden;
     color: #000;
 }
-
-.desc-xs { font-size: 14px; }
-.desc-sm { font-size: 17px; }
-.desc-md { font-size: 20px; }
-.desc-lg { font-size: 24px; }
 
 .flavour {
     top: 520px;

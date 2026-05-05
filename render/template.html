@@ -7,16 +7,6 @@
 <body>
     {% for spell in spells %}
     {% set theme = 'theme-dark' if spell.school in ['divination', 'transmutation'] else 'theme-light' %}
-    {% set desc_len = spell.desc|length %}
-    {% if desc_len > 1300 %}
-        {% set desc_size = 'desc-xs' %}
-    {% elif desc_len > 1000 %}
-        {% set desc_size = 'desc-sm' %}
-    {% elif desc_len > 650 %}
-        {% set desc_size = 'desc-md' %}
-    {% else %}
-        {% set desc_size = 'desc-lg' %}
-    {% endif %}
 
     <div class="card">
         <img class="background" src="assets/backgrounds/{{ spell.school }}.png">
@@ -35,8 +25,12 @@
             {% if spell.material %}Materials: {{ spell.material }}{% endif %}
         </div>
 
-        <div class="text-layer description {{ desc_size }}">
-            {{ spell.desc | replace('\n', '<br><br>') | safe }}
+        <div class="text-layer description">
+            {% if spell.summary %}
+                {{ spell.summary | replace('\n', '<br><br>') | safe }}
+            {% else %}
+                {{ spell.desc | replace('\n', '<br><br>') | safe }}
+            {% endif %}
         </div>
 
         <div class="text-layer page">

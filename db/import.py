@@ -131,7 +131,8 @@ def main():
             casting_time TEXT,
             level INT,
             school TEXT,
-            source_slug TEXT REFERENCES sources(slug) ON DELETE RESTRICT
+            source_slug TEXT REFERENCES sources(slug) ON DELETE RESTRICT,
+            summary TEXT
         );
 
         CREATE TABLE IF NOT EXISTS classes (
