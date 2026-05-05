@@ -94,7 +94,7 @@ body {
 .level.theme-light { color: #fff; }
 
 .details {
-    top: 213px;
+    top: 200px;
     left: 380px;
     width: 200px;
     font-size: 42px;
@@ -123,10 +123,13 @@ body {
     top: 540px;
     left: 100px;
     width: 634px;
-    font-size: 33px;
-    line-height: 33px;
+    line-height: 1.1;
     font-style: italic;
     font-weight: bold;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .flavour.theme-dark { color: #000; }

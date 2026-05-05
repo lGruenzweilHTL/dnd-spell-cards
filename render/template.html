@@ -21,7 +21,7 @@
             <div>{{ spell.casting_time }}</div>
         </div>
 
-        <div class="text-layer flavour {{ theme }}">
+        <div class="text-layer flavour {{ theme }}" {% if spell.material %}style="font-size: {{ [33, (2500 / (spell.material|length + 11))|int]|min }}px;"{% endif %}>
             {% if spell.material %}Materials: {{ spell.material }}{% endif %}
         </div>
 
