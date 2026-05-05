@@ -12,8 +12,8 @@
         <img class="background" src="assets/backgrounds/{{ spell.school }}.png">
         <img class="school-icon" src="assets/schools/{{ spell.school }}.png">
 
-        <div class="text-layer name {{ theme }}">{{ spell.name }}</div>
-        <div class="text-layer level">{% if spell.level == 0 %}Cantrip{% else %}Lv {{ spell.level }}{% endif %}</div>
+        <div class="text-layer name {{ theme }}" style="font-size: {{ [58, (404 / (spell.name|length * 0.6))|int]|min }}px;">{{ spell.name }}</div>
+        <div class="text-layer level {{ theme }}">{% if spell.level == 0 %}Cantrip{% else %}Lv {{ spell.level }}{% endif %}</div>
         
         <div class="text-layer details">
             <div>{{ spell.range }}</div>

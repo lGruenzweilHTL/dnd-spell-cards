@@ -73,6 +73,7 @@ body {
     text-transform: uppercase;
     display: flex;
     align-items: center;
+    white-space: nowrap;
 }
 
 .name.theme-dark { color: #000; }
@@ -86,7 +87,11 @@ body {
     text-align: right;
     font-family: 'Ringbearer', serif;
     color: #000;
+    white-space: nowrap;
 }
+
+.level.theme-dark { color: #000; }
+.level.theme-light { color: #fff; }
 
 .details {
     top: 213px;
@@ -98,11 +103,15 @@ body {
     color: #000;
 }
 
+.details div {
+    white-space: nowrap;
+}
+
 .description {
     top: 616px;
     left: 100px;
     width: 634px;
-    height: 322px;
+    height: 380px;
     font-size: 29px;
     line-height: 33px;
     text-align: left;

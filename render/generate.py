@@ -1,4 +1,5 @@
 import os
+import re
 import argparse
 import psycopg2
 from psycopg2.extras import RealDictCursor
@@ -12,6 +13,14 @@ DB_PARAMS = {
     "host": "localhost",
     "port": "5432",
 }
+
+
+def clean_5etools_tags(text):
+    if not text:
+        return text
+    # Match {@tag text} or {@tag text|other} and replace with just "text"
+    text = re.sub(r"\{@[a-z]+\s+([^}|]+)(?:\|[^}]+)?\}", r"\1", text)
+    return text
 
 
 def fetch_spells(spell_names=None):
@@ -54,6 +63,33 @@ def fetch_spells(spell_names=None):
     }
 
     for spell in spells:
+        # Clean 5etools text tags
+        spell["desc"] = clean_5etools_tags(spell["desc"])
+        if spell["summary"]:
+            spell["summary"] = clean_5etools_tags(spell["summary"])
+
+        # Format Casting Time
+        if spell["casting_time"]:
+            ct = spell["casting_time"].lower()
+            ct = ct.replace("1 action", "1 Action")
+            ct = ct.replace("1 bonus action", "Bonus")
+            ct = ct.replace("1 bonus", "Bonus")
+            ct = ct.replace("1 reaction", "1 Reaction")
+            spell["casting_time"] = ct
+
+        # Format Range
+        if spell["range"]:
+            r = spell["range"].lower()
+            r = r.replace("touch", "Touch")
+            r = r.replace("self", "Self")
+            spell["range"] = r
+
+        # Format Duration
+        if spell["duration"]:
+            d = spell["duration"]
+            d = d.replace("Instantaneous", "Instant")
+            spell["duration"] = d
+
         # Map 5etools short school names to full names
         if spell["school"] in school_map:
             spell["school"] = school_map[spell["school"]]
