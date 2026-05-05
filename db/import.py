@@ -206,19 +206,38 @@ def main():
             except Exception as e:
                 print(f"Error parsing spell {spell.get('name')}: {e}")
 
-    # Second pass: Update classes from open5e
-    print("Fetching classes from Open5e...")
-    next_url = "https://api.open5e.com/v1/spells/?limit=100"
-    while next_url:
-        res = requests.get(next_url)
-        data = res.json()
-        next_url = data.get("next")
+    # Second pass: Update classes from 5etools generated index
+    print("Fetching classes from 5etools index...")
+    lookup_res = requests.get(
+        "https://raw.githubusercontent.com/5etools-mirror-3/5etools-src/main/data/generated/gendata-spell-source-lookup.json"
+    )
+    if lookup_res.status_code == 200:
+        lookup_data = lookup_res.json()
 
-        for spell in data.get("results", []):
-            slug = spell.get("slug")
-            dnd_class = spell.get("dnd_class", "")
-            classes = [c.strip() for c in dnd_class.split(",") if c.strip()]
+        # Build mapping of spell slug -> list of classes
+        # Structure is source -> spell_name_lower -> 'class' -> source -> class_name
+        spell_to_classes = {}
+        for src, spells_dict in lookup_data.items():
+            for spell_name_lower, spell_info in spells_dict.items():
+                spell_slug = (
+                    spell_name_lower.replace(" ", "-")
+                    .replace("'", "")
+                    .replace("/", "-")
+                )
 
+                classes_set = set()
+                if "class" in spell_info:
+                    for class_src, class_dict in spell_info["class"].items():
+                        for class_name in class_dict.keys():
+                            classes_set.add(class_name)
+
+                if classes_set:
+                    # Merge across sources if spell has multiple sources
+                    if spell_slug not in spell_to_classes:
+                        spell_to_classes[spell_slug] = set()
+                    spell_to_classes[spell_slug].update(classes_set)
+
+        for slug, classes in spell_to_classes.items():
             for class_name in classes:
                 cur.execute(
                     "INSERT INTO classes (name) VALUES (%s) ON CONFLICT (name) DO NOTHING RETURNING id;",
@@ -231,7 +250,11 @@ def main():
                     cur.execute(
                         "SELECT id FROM classes WHERE name = %s;", (class_name,)
                     )
-                    class_id = cur.fetchone()[0]
+                    res = cur.fetchone()
+                    if res:
+                        class_id = res[0]
+                    else:
+                        continue
 
                 cur.execute("SELECT 1 FROM spells WHERE slug = %s;", (slug,))
                 if cur.fetchone():

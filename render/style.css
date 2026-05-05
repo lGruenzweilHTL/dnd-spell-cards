@@ -86,11 +86,11 @@ body {
 }
 
 .details {
-    top: 210px;
-    left: 380px;
-    width: 166px;
-    font-size: 18px;
-    line-height: 1.5;
+    top: 213px;
+    left: 360px;
+    width: 186px;
+    font-size: 26px;
+    line-height: 52px;
 }
 
 .description {
@@ -98,17 +98,18 @@ body {
     left: 100px;
     width: 625px;
     height: 380px;
-    font-size: 18px;
-    line-height: 1.2;
+    font-size: 22px;
+    line-height: 1.25;
     overflow: hidden;
 }
 
 .flavour {
-    top: 540px;
-    left: 88px;
-    width: 589px;
-    font-size: 16px;
+    top: 520px;
+    left: 100px;
+    width: 625px;
+    font-size: 22px;
     font-style: italic;
+    font-weight: bold;
 }
 
 .page {

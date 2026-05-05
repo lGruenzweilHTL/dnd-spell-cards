@@ -20,7 +20,7 @@
         </div>
 
         <div class="text-layer flavour">
-            {% if spell.material %}{{ spell.material }}{% endif %}
+            {% if spell.material %}Materials: {{ spell.material }}{% endif %}
         </div>
 
         <div class="text-layer description">
@@ -33,25 +33,25 @@
 
         <!-- Indicators -->
         {% if spell.requires_concentration %}
-            <img class="indicator ind-concentration" src="assets/indicators/concentration.png">
+            <img class="indicator ind-concentration" src="assets/indicators/{{ spell.school }}_concentration.png">
         {% endif %}
         
         {% if spell.requires_verbal %}
-            <img class="indicator ind-verbal" src="assets/indicators/verbal.png">
+            <img class="indicator ind-verbal" src="assets/indicators/{{ spell.school }}_verbal.png">
         {% endif %}
         {% if spell.requires_somatic %}
-            <img class="indicator ind-somatic" src="assets/indicators/somatic.png">
+            <img class="indicator ind-somatic" src="assets/indicators/{{ spell.school }}_somatic.png">
         {% endif %}
         {% if spell.requires_material %}
-            <img class="indicator ind-material" src="assets/indicators/material.png">
+            <img class="indicator ind-material" src="assets/indicators/{{ spell.school }}_material.png">
         {% endif %}
         {% if spell.is_ritual %}
-            <img class="indicator ind-ritual" src="assets/indicators/ritual.png">
+            <img class="indicator ind-ritual" src="assets/indicators/{{ spell.school }}_ritual.png">
         {% endif %}
 
         <!-- Classes -->
         {% for cls in spell.classes %}
-            <img class="indicator ind-{{ cls | lower }}" src="assets/indicators/{{ cls | lower }}.png">
+            <img class="indicator ind-{{ cls | lower }}" src="assets/indicators/{{ spell.school }}_{{ cls | lower }}.png">
         {% endfor %}
     </div>
     {% endfor %}

@@ -1,4 +1,5 @@
 import os
+import argparse
 import psycopg2
 from psycopg2.extras import RealDictCursor
 from jinja2 import Environment, FileSystemLoader
@@ -13,11 +14,11 @@ DB_PARAMS = {
 }
 
 
-def fetch_spells():
+def fetch_spells(spell_names=None):
     conn = psycopg2.connect(**DB_PARAMS)
     cur = conn.cursor(cursor_factory=RealDictCursor)
 
-    cur.execute("""
+    query = """
         SELECT 
             s.*,
             COALESCE(
@@ -28,10 +29,16 @@ def fetch_spells():
                 '{}'
             ) as classes
         FROM spells s
-        ORDER BY s.level, s.name
-        LIMIT 20; -- Just testing first 20 for now to keep generation fast
-    """)
+    """
 
+    params = ()
+    if spell_names:
+        query += " WHERE s.name ILIKE ANY(%s)"
+        params = ([f"%{n.strip()}%" for n in spell_names],)
+
+    query += " ORDER BY s.level, s.name"
+
+    cur.execute(query, params)
     spells = cur.fetchall()
 
     # Normalize school abbreviations to full names matching our pngs
@@ -65,6 +72,7 @@ def fetch_spells():
             "sorcerer",
             "warlock",
             "wizard",
+            "artificer",
         ]
         spell["classes"] = [
             c.lower() for c in spell["classes"] if c.lower() in valid_classes
@@ -76,9 +84,24 @@ def fetch_spells():
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Generate D&D Spell Cards PDF")
+    parser.add_argument(
+        "--spells",
+        "-s",
+        type=str,
+        help="Comma-separated list of spell names to generate",
+    )
+    args = parser.parse_args()
+
+    spell_list = args.spells.split(",") if args.spells else None
+
     print("Fetching spells from database...")
-    spells = fetch_spells()
+    spells = fetch_spells(spell_list)
     print(f"Loaded {len(spells)} spells.")
+
+    if not spells:
+        print("No spells found. Exiting.")
+        return
 
     print("Rendering HTML template...")
     env = Environment(loader=FileSystemLoader("."))
@@ -95,6 +118,5 @@ def main():
 
 
 if __name__ == "__main__":
-    # Ensure we run in the correct directory for relative asset paths
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     main()

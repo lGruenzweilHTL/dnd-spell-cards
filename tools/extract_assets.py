@@ -53,18 +53,20 @@ def extract_assets(template_dir, output_dir):
                             os.path.join(output_dir, "schools", f"{school_name}.png")
                         )
 
-        # Only extract the shared indicators (V, S, M, Classes) from the first file
-        if first_file:
-            indicators_group = next((l for l in psd if l.name == "Indicators"), None)
-            if indicators_group:
-                for layer in indicators_group:
-                    # E.g. "Verbal", "Wizard", "Concentration"
-                    img = layer.topil()
-                    if img:
-                        # Clean up name
-                        name = layer.name.lower()
-                        img.save(os.path.join(output_dir, "indicators", f"{name}.png"))
-            first_file = False
+        # Extract the shared indicators (V, S, M, Classes) customized for each school
+        indicators_group = next((l for l in psd if l.name == "Indicators"), None)
+        if indicators_group:
+            for layer in indicators_group:
+                # E.g. "Verbal", "Wizard", "Concentration"
+                img = layer.topil()
+                if img:
+                    # Clean up name
+                    name = layer.name.lower()
+                    img.save(
+                        os.path.join(
+                            output_dir, "indicators", f"{school_name}_{name}.png"
+                        )
+                    )
 
     print("Extraction complete.")
 
