@@ -21,7 +21,7 @@
             <div>{{ spell.casting_time }}</div>
         </div>
 
-        <div class="text-layer flavour {{ theme }}" {% if spell.flavor %}style="font-size: {{ [33, (2800 / spell.flavor|length)|int]|min }}px;"{% endif %}>
+        <div class="text-layer flavour {{ theme }}" {% if spell.flavor %}style="font-size: {{ [33, (1700 / spell.flavor|length)|int]|min }}px;"{% endif %}>
             {% if spell.flavor %}{{ spell.flavor }}{% endif %}
         </div>
 

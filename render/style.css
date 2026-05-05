@@ -120,15 +120,15 @@ body {
 }
 
 .flavour {
-    top: 540px;
+    top: 530px;
     left: 100px;
     width: 634px;
+    height: 54px;
+    display: flex;
+    align-items: center;
     line-height: 1.1;
     font-style: italic;
     font-weight: bold;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
     overflow: hidden;
 }
 
