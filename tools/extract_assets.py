@@ -25,7 +25,13 @@ def extract_assets(template_dir, output_dir):
         # To do this safely, we hide Text and Indicators groups, then export the PSD composite
 
         for layer in psd:
-            if layer.name in ["Text", "Indicators"]:
+            if layer.name in [
+                "Text",
+                "Indicators",
+                "bleeding area",
+                "finished card size",
+                "safe area",
+            ]:
                 layer.visible = False
             else:
                 layer.visible = True
@@ -64,4 +70,4 @@ def extract_assets(template_dir, output_dir):
 
 
 if __name__ == "__main__":
-    extract_assets("nBeebz's 5e Spell Cards/Templates/", "assets")
+    extract_assets("nBeebz's 5e Spell Cards/Templates/", "render/assets")
