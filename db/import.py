@@ -132,7 +132,8 @@ def main():
             level INT,
             school TEXT,
             source_slug TEXT REFERENCES sources(slug) ON DELETE RESTRICT,
-            summary TEXT
+            summary TEXT,
+            flavor TEXT
         );
 
         CREATE TABLE IF NOT EXISTS classes (
