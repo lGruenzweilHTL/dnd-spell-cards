@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'MPlantin';
+    src: url('fonts/MPLANTIN.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MPlantin';
+    src: url('fonts/MPLANTI1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'MPlantin';
+    src: url('fonts/MPLANTI3.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Ringbearer';
+    src: url('fonts/RINGM___.TTF') format('truetype');
+}
+
+@page {
+    size: 822px 1122px;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    position: relative;
+    width: 822px;
+    height: 1122px;
+    page-break-after: always;
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.school-icon {
+    position: absolute;
+    top: 74px;
+    left: 74px;
+    width: 111px;
+    height: 111px;
+    z-index: 2;
+}
+
+.text-layer {
+    position: absolute;
+    z-index: 3;
+    font-family: 'MPlantin', serif;
+}
+
+.name {
+    top: 89px;
+    left: 198px;
+    width: 404px;
+    height: 57px;
+    font-family: 'Ringbearer', serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.level {
+    top: 101px;
+    left: 648px;
+    width: 80px;
+    font-size: 24px;
+    text-align: right;
+    font-family: 'Ringbearer', serif;
+}
+
+.details {
+    top: 210px;
+    left: 380px;
+    width: 166px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.description {
+    top: 616px;
+    left: 100px;
+    width: 625px;
+    height: 380px;
+    font-size: 18px;
+    line-height: 1.2;
+    overflow: hidden;
+}
+
+.flavour {
+    top: 540px;
+    left: 88px;
+    width: 589px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.page {
+    top: 1017px;
+    left: 594px;
+    width: 133px;
+    font-size: 14px;
+    text-align: right;
+}
+
+.indicator {
+    position: absolute;
+    z-index: 4;
+}
+
+.ind-concentration { top: 265px; left: 320px; }
+.ind-paladin { top: 472px; left: 618px; }
+.ind-ranger { top: 430px; left: 624px; }
+.ind-warlock { top: 388px; left: 605px; }
+.ind-sorcerer { top: 347px; left: 606px; }
+.ind-druid { top: 305px; left: 640px; }
+.ind-cleric { top: 264px; left: 641px; }
+.ind-bard { top: 222px; left: 657px; }
+.ind-wizard { top: 180px; left: 622px; }
+
+.ind-material { top: 416px; left: 456px; }
+.ind-somatic { top: 419px; left: 348px; }
+.ind-verbal { top: 422px; left: 229px; }
+.ind-ritual { top: 402px; left: 97px; }
+

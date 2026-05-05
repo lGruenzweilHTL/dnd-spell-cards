@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    {% for spell in spells %}
+    <div class="card">
+        <img class="background" src="assets/backgrounds/{{ spell.school }}.png">
+        <img class="school-icon" src="assets/schools/{{ spell.school }}.png">
+
+        <div class="text-layer name">{{ spell.name }}</div>
+        <div class="text-layer level">{% if spell.level == 0 %}Cantrip{% else %}Lv {{ spell.level }}{% endif %}</div>
+        
+        <div class="text-layer details">
+            <div>{{ spell.range }}</div>
+            <div>{{ spell.duration }}</div>
+            <div>{{ spell.casting_time }}</div>
+        </div>
+
+        <div class="text-layer flavour">
+            {% if spell.material %}{{ spell.material }}{% endif %}
+        </div>
+
+        <div class="text-layer description">
+            {{ spell.desc | replace('\n', '<br><br>') | safe }}
+        </div>
+
+        <div class="text-layer page">
+            {{ spell.source_slug | upper }} {{ spell.page }}
+        </div>
+
+        <!-- Indicators -->
+        {% if spell.requires_concentration %}
+            <img class="indicator ind-concentration" src="assets/indicators/concentration.png">
+        {% endif %}
+        
+        {% if spell.requires_verbal %}
+            <img class="indicator ind-verbal" src="assets/indicators/verbal.png">
+        {% endif %}
+        {% if spell.requires_somatic %}
+            <img class="indicator ind-somatic" src="assets/indicators/somatic.png">
+        {% endif %}
+        {% if spell.requires_material %}
+            <img class="indicator ind-material" src="assets/indicators/material.png">
+        {% endif %}
+        {% if spell.is_ritual %}
+            <img class="indicator ind-ritual" src="assets/indicators/ritual.png">
+        {% endif %}
+
+        <!-- Classes -->
+        {% for cls in spell.classes %}
+            <img class="indicator ind-{{ cls | lower }}" src="assets/indicators/{{ cls | lower }}.png">
+        {% endfor %}
+    </div>
+    {% endfor %}
+</body>
+</html>
