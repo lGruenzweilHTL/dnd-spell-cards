@@ -91,7 +91,17 @@ def main():
         type=str,
         help="Comma-separated list of spell names to generate",
     )
+    parser.add_argument(
+        "--all",
+        "-a",
+        action="store_true",
+        help="Generate cards for all spells in the database",
+    )
     args = parser.parse_args()
+
+    if not args.spells and not args.all:
+        parser.print_help()
+        return
 
     spell_list = args.spells.split(",") if args.spells else None
 
