@@ -71,10 +71,12 @@ body {
     font-family: 'Ringbearer', serif;
     font-size: 40px;
     text-transform: uppercase;
-    color: #000;
     display: flex;
     align-items: center;
 }
+
+.name.theme-dark { color: #000; }
+.name.theme-light { color: #fff; }
 
 .level {
     top: 101px;
@@ -83,14 +85,17 @@ body {
     font-size: 24px;
     text-align: right;
     font-family: 'Ringbearer', serif;
+    color: #000;
 }
 
 .details {
     top: 213px;
     left: 360px;
     width: 186px;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 52px;
+    font-style: italic;
+    color: #000;
 }
 
 .description {
@@ -98,10 +103,15 @@ body {
     left: 100px;
     width: 625px;
     height: 380px;
-    font-size: 22px;
     line-height: 1.25;
     overflow: hidden;
+    color: #000;
 }
+
+.desc-xs { font-size: 14px; }
+.desc-sm { font-size: 17px; }
+.desc-md { font-size: 20px; }
+.desc-lg { font-size: 24px; }
 
 .flavour {
     top: 520px;
@@ -111,6 +121,9 @@ body {
     font-style: italic;
     font-weight: bold;
 }
+
+.flavour.theme-dark { color: #000; }
+.flavour.theme-light { color: #fff; }
 
 .page {
     top: 1017px;
