@@ -67,9 +67,9 @@ body {
     top: 89px;
     left: 198px;
     width: 404px;
-    height: 57px;
+    height: 60px;
     font-family: 'Ringbearer', serif;
-    font-size: 40px;
+    font-size: 58px;
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -82,7 +82,7 @@ body {
     top: 101px;
     left: 648px;
     width: 80px;
-    font-size: 24px;
+    font-size: 42px;
     text-align: right;
     font-family: 'Ringbearer', serif;
     color: #000;
@@ -90,10 +90,10 @@ body {
 
 .details {
     top: 213px;
-    left: 360px;
-    width: 186px;
-    font-size: 24px;
-    line-height: 52px;
+    left: 380px;
+    width: 200px;
+    font-size: 42px;
+    line-height: 67px;
     font-style: italic;
     color: #000;
 }
@@ -101,19 +101,21 @@ body {
 .description {
     top: 616px;
     left: 100px;
-    width: 625px;
-    height: 380px;
-    font-size: 22px;
-    line-height: 1.25;
+    width: 634px;
+    height: 322px;
+    font-size: 29px;
+    line-height: 33px;
+    text-align: left;
     overflow: hidden;
     color: #000;
 }
 
 .flavour {
-    top: 520px;
+    top: 540px;
     left: 100px;
-    width: 625px;
-    font-size: 22px;
+    width: 634px;
+    font-size: 33px;
+    line-height: 33px;
     font-style: italic;
     font-weight: bold;
 }
