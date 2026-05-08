@@ -1,0 +1,157 @@
+[
+  {
+    "slug": "find-familiar",
+    "name": "Find Familiar",
+    "desc": "You gain the service of a familiar, a spirit that takes an animal form you choose: {@creature bat}, {@creature cat}, {@creature crab}, {@creature frog} (toad), {@creature hawk}, {@creature lizard}, {@creature octopus}, {@creature owl}, {@creature poisonous snake}, fish ({@creature quipper}), {@creature rat}, {@creature raven}, {@creature sea horse}, {@creature spider}, or {@creature weasel}. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of a beast.\n{@note Additional {@filter animal form choices|bestiary|Miscellaneous=Familiar} may be available at the DM's discretion.}\nYour familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can't attack, but it can take other actions as normal.\nWhen the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again. As an action, you can temporarily dismiss the familiar to a pocket dimension. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you. Whenever the familiar drops to 0 hit points or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.\nWhile your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are {@condition deafened||deaf} and {@condition blinded||blind} with regard to your own senses.\nYou can't have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.\nFinally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll."
+  },
+  {
+    "slug": "hex",
+    "name": "Hex",
+    "desc": "You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra {@damage 1d6} necrotic damage to the target whenever you hit it with an attack. Also, choose one ability when you cast the spell. The target has disadvantage on ability checks made with the chosen ability.\nIf the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to curse a new creature.\nA {@spell remove curse} cast on the target ends this spell early."
+  },
+  {
+    "slug": "identify",
+    "name": "Identify",
+    "desc": "You choose one object that you must touch throughout the casting of the spell. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it.\nIf you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it."
+  },
+  {
+    "slug": "illusory-script",
+    "name": "Illusory Script",
+    "desc": "You write on parchment, paper, or some other suitable writing material and imbue it with a potent illusion that lasts for the duration.\nTo you and any creatures you designate when you cast the spell, the writing appears normal, written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, you can cause the writing to appear to be an entirely different message, written in a different hand and language, though the language must be one you know.\nShould the spell be dispelled, the original script and the illusion both disappear.\nA creature with {@sense truesight} can read the hidden message."
+  },
+  {
+    "slug": "protection-from-evil-and-good",
+    "name": "Protection from Evil and Good",
+    "desc": "Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.\nThe protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be {@condition charmed}, {@condition frightened}, or possessed by them. If the target is already {@condition charmed}, {@condition frightened}, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect."
+  },
+  {
+    "slug": "sanctuary",
+    "name": "Sanctuary",
+    "desc": "You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from area effects, such as the explosion of a {@spell fireball}.\nIf the warded creature makes an attack, casts a spell that affects an enemy, or deals damage to another creature, this spell ends."
+  },
+  {
+    "slug": "searing-smite",
+    "name": "Searing Smite",
+    "desc": "The next time you hit a creature with a melee weapon attack during the spell's duration, your weapon flares with white-hot intensity, and the attack deals an extra {@damage 1d6} fire damage to the target and causes the target to ignite in flames. At the start of each of its turns until the spell ends, the target must make a Constitution saving throw. On a failed save, it takes {@damage 1d6} fire damage. On a successful save, the spell ends. If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames (such as the target being submerged in water), the spell ends."
+  },
+  {
+    "slug": "silent-image",
+    "name": "Silent Image",
+    "desc": "You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot cube. The image appears at a spot within range and lasts for the duration. The image is purely visual; it isn't accompanied by sound, smell, or other sensory effects.\nYou can use your action to cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking.\nPhysical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence ({@skill Investigation}) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image."
+  },
+  {
+    "slug": "sleep",
+    "name": "Sleep",
+    "desc": "This spell sends creatures into a magical slumber. Roll {@dice 5d8}; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring {@condition unconscious} creatures).\nStarting with the creature that has the lowest current hit points, each creature affected by this spell falls {@condition unconscious} until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected.\nUndead and creatures immune to being {@condition charmed} aren't affected by this spell."
+  },
+  {
+    "slug": "snare",
+    "name": "Snare",
+    "desc": "As you cast this spell, you use the rope to create a circle with a 5-foot radius on the ground or the floor. When you finish casting, the rope disappears and the circle becomes a magic trap.\nThis trap is nearly invisible, requiring a successful Intelligence ({@skill Investigation}) check against your spell save DC to be discerned.\nThe trap triggers when a Small, Medium, or Large creature moves onto the ground or the floor in the spell's radius. That creature must succeed on a Dexterity saving throw or be magically hoisted into the air, leaving it hanging upside down 3 feet above the ground or the floor. The creature is {@condition restrained} there until the spell ends.\nA {@condition restrained} creature can make a Dexterity saving throw at the end of each of its turns, ending the effect on itself on a success. Alternatively, the creature or someone else who can reach it can use an action to make an Intelligence ({@skill Arcana}) check against your spell save DC. On a success, the {@condition restrained} effect ends.\nAfter the trap is triggered, the spell ends when no creature is {@condition restrained} by it."
+  },
+  {
+    "slug": "tasha's-hideous-laughter",
+    "name": "Tasha's Hideous Laughter",
+    "desc": "A creature of your choice that you can see within range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a Wisdom saving throw or fall {@condition prone}, becoming {@condition incapacitated} and unable to stand up for the duration. A creature with an Intelligence score of 4 or less isn't affected.\nAt the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target has advantage on the saving throw if it's triggered by damage. On a success, the spell ends."
+  },
+  {
+    "slug": "tenser's-floating-disk",
+    "name": "Tenser's Floating Disk",
+    "desc": "This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration, and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground.\nThe disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can't cross an elevation change of 10 feet or more. For example, the disk can't move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom.\nIf you move more than 100 feet from the disk (typically because it can't move around an obstacle to follow you), the spell ends."
+  },
+  {
+    "slug": "thunderwave",
+    "name": "Thunderwave",
+    "desc": "A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes {@damage 2d8} thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed.\nIn addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the spell's effect, and the spell emits a thunderous boom audible out to 300 feet."
+  },
+  {
+    "slug": "unseen-servant",
+    "name": "Unseen Servant",
+    "desc": "This spell creates an {@condition invisible}, mindless, shapeless, Medium force that performs simple tasks at your command until the spell ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 hit point, and a Strength of 2, and it can't attack. If it drops to 0 hit points, the spell ends.\nOnce on each of your turns as a bonus action, you can mentally command the servant to move up to 15 feet and interact with an object. The servant can perform simple tasks that a human servant could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring wine. Once you give the command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command.\nIf you command the servant to perform a task that would move it more than 60 feet away from you, the spell ends."
+  },
+  {
+    "slug": "witch-bolt",
+    "name": "Witch Bolt",
+    "desc": "A beam of crackling, blue energy lances out toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes {@damage 1d12} lightning damage, and on each of your turns for the duration, you can use your action to deal {@damage 1d12} lightning damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has {@quickref Cover||3||total cover} from you."
+  },
+  {
+    "slug": "alter-self",
+    "name": "Alter Self",
+    "desc": "You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one.\nAquatic Adaptation\nYou adapt your body to an aquatic environment, sprouting gills and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed.\nChange Appearance\nYou transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again.\nNatural Weapons\nYou grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal {@damage 1d6} bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with your unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it."
+  },
+  {
+    "slug": "animal-messenger",
+    "name": "Animal Messenger",
+    "desc": "By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as \"a man or woman dressed in the uniform of the town guard\" or \"a red-haired dwarf wearing a pointed hat.\" You also speak a message of up to twenty-five words. The target beast travels for the duration of the spell toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals.\nWhen the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn't reach its destination before the spell ends, the message is lost, and the beast makes its way back to where you cast this spell."
+  },
+  {
+    "slug": "arcane-lock",
+    "name": "Arcane Lock",
+    "desc": "You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting {@spell knock} on the object suppresses {@spell arcane lock} for 10 minutes.\nWhile affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10."
+  },
+  {
+    "slug": "augury",
+    "name": "Augury",
+    "desc": "By casting gem-inlaid sticks, rolling dragon bones, laying out ornate cards, or employing some other divining tool, you receive an omen from an otherworldly entity about the results of a specific course of action that you plan to take within the next 30 minutes. The DM chooses from the following possible omens:\n- Weal, for good results\n- Woe, for bad results\n- Weal and woe, for both good and bad results\n- Nothing, for results that aren't especially good or bad\nThe spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.\nIf you cast the spell two or more times before completing your next long rest, there is a cumulative {@chance 25|||Random reading!|Regular reading} chance for each casting after the first that you get a random reading. The DM makes this roll in secret."
+  },
+  {
+    "slug": "calm-emotions",
+    "name": "Calm Emotions",
+    "desc": "You attempt to suppress strong emotions in a group of people. Each humanoid in a 20-foot-radius sphere centered on a point you choose within range must make a Charisma saving throw; a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following two effects.\nYou can suppress any effect causing a target to be {@condition charmed} or {@condition frightened}. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.\nAlternatively, you can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the DM rules otherwise."
+  },
+  {
+    "slug": "cordon-of-arrows",
+    "name": "Cordon of Arrows",
+    "desc": "You plant four pieces of nonmagical ammunition\u2014{@item arrow|phb|arrows} or {@item crossbow bolt|phb|crossbow bolts}\u2014in the ground within range and lay magic upon them to protect an area. Until the spell ends, whenever a creature other than you comes within 30 feet of the ammunition for the first time on a turn or ends its turn there, one piece of ammunition flies up to strike it. The creature must succeed on a Dexterity saving throw or take {@damage 1d6} piercing damage. The piece of ammunition is then destroyed. The spell ends when no ammunition remains.\nWhen you cast this spell, you can designate any creatures you choose, and the spell ignores them."
+  },
+  {
+    "slug": "crown-of-madness",
+    "name": "Crown of Madness",
+    "desc": "One humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become {@condition charmed} by you for the duration. While the target is {@condition charmed} in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes.\nThe {@condition charmed} target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose. The target can act normally on its turn if you choose no creature or if none are within its reach.\nOn your subsequent turns, you must use your action to maintain control over the target, or the spell ends. Also, the target can make a Wisdom saving throw at the end of each of its turns. On a success, the spell ends."
+  },
+  {
+    "slug": "darkness",
+    "name": "Darkness",
+    "desc": "Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with {@sense darkvision} can't see through this darkness, and nonmagical light can't illuminate it.\nIf the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.\nIf any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled."
+  },
+  {
+    "slug": "detect-thoughts",
+    "name": "Detect Thoughts",
+    "desc": "For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.\nYou initially learn the surface thoughts of the creature\u2014what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.\nQuestions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.\nYou can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.\nOnce you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range."
+  },
+  {
+    "slug": "dust-devil",
+    "name": "Dust Devil",
+    "desc": "Choose an unoccupied 5-foot cube of air that you can see within range. An elemental force that resembles a dust devil appears in the cube and lasts for the spell's duration.\nAny creature that ends its turn within 5 feet of the dust devil must make a Strength saving throw. On a failed save, the creature takes {@damage 1d8} bludgeoning damage and is pushed 10 feet away from the dust devil. On a successful save, the creature takes half as much damage and isn't pushed.\nAs a bonus action, you can move the dust devil up to 30 feet in any direction. If the dust devil moves over sand, dust, loose dirt, or light gravel, it sucks up the material and forms a 10-foot-radius cloud of debris around itself that lasts until the start of your next turn. The cloud heavily obscures its area."
+  },
+  {
+    "slug": "enhance-ability",
+    "name": "Enhance Ability",
+    "desc": "You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects; the target gains that effect until the spell ends.\nBear's Endurance\nThe target has advantage on Constitution checks. It also gains {@dice 2d6} temporary hit points, which are lost when the spell ends.\nBull's Strength\nThe target has advantage on Strength checks, and his or her carrying capacity doubles.\nCat's Grace\nThe target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't {@condition incapacitated}.\nEagle's Splendor\nThe target has advantage on Charisma checks.\nFox's Cunning\nThe target has advantage on Intelligence checks.\nOwl's Wisdom\nThe target has advantage on Wisdom checks."
+  },
+  {
+    "slug": "enlarge/reduce",
+    "name": "Enlarge/Reduce",
+    "desc": "You cause a creature or an object you can see within range to grow larger or smaller for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.\nIf the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.\nEnlarge\nThe target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category\u2014from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal {@damage 1d4} extra damage.\nReduce\nThe target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category\u2014from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal {@damage 1d4} less damage (this can't reduce the damage below 1)."
+  },
+  {
+    "slug": "enthrall",
+    "name": "Enthrall",
+    "desc": "You weave a distracting string of words, causing creatures of your choice that you can see within range and that can hear you to make a Wisdom saving throw. Any creature that can't be {@condition charmed} succeeds on this saving throw automatically, and if you or your companions are fighting a creature, it has advantage on the save. On a failed save, the target has disadvantage on Wisdom ({@skill Perception}) checks made to perceive any creature other than you until the spell ends or until the target can no longer hear you. The spell ends if you are {@condition incapacitated} or can no longer speak."
+  },
+  {
+    "slug": "find-steed",
+    "name": "Find Steed",
+    "desc": "You summon a spirit that assumes the form of an unusually intelligent, strong, and loyal steed, creating a long-lasting bond with it. Appearing in an unoccupied space within range, the steed takes on a form that you choose: a {@creature warhorse}, a {@creature pony}, a {@creature camel}, an {@creature elk}, or a {@creature mastiff}. (Your DM might allow other animals to be summoned as steeds.) The steed has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of its normal type. Additionally, if your steed has an Intelligence of 5 or less, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak.\nYour steed serves you as a mount, both in combat and out, and you have an instinctive bond with it that allows you to fight as a seamless unit. While mounted on your steed, you can make any spell you cast that targets only you also target your steed.\nWhen the steed drops to 0 hit points, it disappears, leaving behind no physical form. You can also dismiss your steed at any time as an action, causing it to disappear. In either case, casting this spell again summons the same steed, restored to its hit point maximum.\nWhile your steed is within 1 mile of you, you can communicate with each other telepathically.\nYou can't have more than one steed bonded by this spell at a time. As an action, you can release the steed from its bond at any time, causing it to disappear."
+  },
+  {
+    "slug": "find-traps",
+    "name": "Find Traps",
+    "desc": "You sense the presence of any trap within range that is within line of sight. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the {@spell alarm} spell, a {@spell glyph of warding}, or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.\nThis spell merely reveals that a trap is present. You don't learn the location of each trap, but you do learn the general nature of the danger posed by a trap you sense."
+  },
+  {
+    "slug": "flame-blade",
+    "name": "Flame Blade",
+    "desc": "You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action.\nYou can use your action to make a melee spell attack with the fiery blade. On a hit, the target takes {@damage 3d6} fire damage.\nThe flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+  }
+]

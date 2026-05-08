@@ -4,3 +4,12 @@ __pycache__/
 *.pyc
 render/output.html
 render/spells.pdf
+backend/
+db/.idea/
+db/data.tar
+dumpfile
+tools/calc_max_length.py
+tools/create_batches.py
+tools/update_0.sql
+tools/overflow.txt
+tools/overflow.json

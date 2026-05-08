@@ -1,0 +1,157 @@
+[
+  {
+    "slug": "booming-blade",
+    "name": "Booming Blade",
+    "desc": "You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects and then becomes sheathed in booming energy until the start of your next turn. If the target willingly moves 5 feet or more before then, the target takes {@damage 1d8} thunder damage, and the spell ends.\nThis spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra {@damage 1d8} thunder damage to the target on a hit, and the damage the target takes for moving increases to {@damage 2d8}. Both damage rolls increase by 1d8 at 11th level ({@damage 2d8} and {@damage 3d8}) and again at 17th level ({@damage 3d8} and {@damage 4d8})."
+  },
+  {
+    "slug": "chill-touch",
+    "name": "Chill Touch",
+    "desc": "You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes {@damage 1d8} necrotic damage, and it can't regain hit points until the start of your next turn. Until then, the hand clings to the target.\nIf you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.\nThis spell's damage increases by {@damage 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+  },
+  {
+    "slug": "control-flames",
+    "name": "Control Flames",
+    "desc": "You choose nonmagical flame that you can see within range and that fits within a 5-foot cube. You affect it in one of the following ways:\n- You instantaneously expand the flame 5 feet in one direction, provided that wood or other fuel is present in the new location.\n- You instantaneously extinguish the flames within the cube.\n- You double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.\n- You cause simple shapes\u2014such as the vague form of a creature, an inanimate object, or a location\u2014to appear within the flames and animate as you like. The shapes last for 1 hour.\nIf you cast this spell multiple times, you can have up to three non-instantaneous effects created by it active at a time, and you can dismiss such an effect as an action."
+  },
+  {
+    "slug": "create-bonfire",
+    "name": "Create Bonfire",
+    "desc": "You create a bonfire on ground that you can see within range. Until the spell ends, the magic bonfire fills a 5-foot cube. Any creature in the bonfire's space when you cast the spell must succeed on a Dexterity saving throw or take {@damage 1d8} fire damage. A creature must also make the saving throw when it moves into the bonfire's space for the first time on a turn or ends its turn there.\nThe bonfire ignites flammable objects in its area that aren't being worn or carried.\nThe spell's damage increases by {@damage 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+  },
+  {
+    "slug": "dancing-lights",
+    "name": "Dancing Lights",
+    "desc": "You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.\nAs a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range."
+  },
+  {
+    "slug": "druidcraft",
+    "name": "Druidcraft",
+    "desc": "Whispering to the spirits of nature, you create one of the following effects within range:\n- You create a tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.\n- You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.\n- You create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint odor of skunk. The effect must fit in a 5-foot cube.\n- You instantly light or snuff out a candle, a torch, or a small campfire."
+  },
+  {
+    "slug": "green-flame-blade",
+    "name": "Green-Flame Blade",
+    "desc": "You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and you can cause green fire to leap from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier.\nThis spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra {@damage 1d8} fire damage to the target on a hit, and the fire damage to the second creature increases to {@damage 1d8} + your spellcasting ability modifier. Both damage rolls increase by {@damage 1d8} at 11th level ({@damage 2d8} and {@damage 2d8}) and 17th level ({@damage 3d8} and {@damage 3d8})."
+  },
+  {
+    "slug": "gust",
+    "name": "Gust",
+    "desc": "You seize the air and compel it to create one of the following effects at a point you can see within range:\n- One Medium or smaller creature that you choose must succeed on a Strength saving throw or be pushed up to 5 feet away from you.\n- You create a small blast of air capable of moving one object that is neither held nor carried and that weighs no more than 5 pounds. The object is pushed up to 10 feet away from you. It isn't pushed with enough force to cause damage.\n- You create a harmless sensory effect using air, such as causing leaves to rustle, wind to slam shutters closed, or your clothing to ripple in a breeze."
+  },
+  {
+    "slug": "infestation",
+    "name": "Infestation",
+    "desc": "You cause a cloud of mites, fleas, and other parasites to appear momentarily on one creature you can see within range. The target must succeed on a Constitution saving throw, or it takes {@damage 1d6} poison damage and moves 5 feet in a random direction if it can move and its speed is at least 5 feet. Roll a {@dice d4} for the direction: 1, north; 2, south; 3, east; or 4, west. This movement doesn't provoke opportunity attacks, and if the direction rolled is blocked, the target doesn't move.\nThe spell's damage increases by {@damage 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
+  },
+  {
+    "slug": "light",
+    "name": "Light",
+    "desc": "You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.\nIf you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell."
+  },
+  {
+    "slug": "mage-hand",
+    "name": "Mage Hand",
+    "desc": "A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.\nYou can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.\nThe hand can't attack, activate magic items, or carry more than 10 pounds."
+  },
+  {
+    "slug": "magic-stone",
+    "name": "Magic Stone",
+    "desc": "You touch one to three pebbles and imbue them with magic. You or someone else can make a ranged spell attack with one of the pebbles by throwing it or hurling it with a {@item sling|phb}. If thrown, a pebble has a range of 60 feet. If someone else attacks with a pebble, that attacker adds your spellcasting ability modifier, not the attacker's, to the attack roll. On a hit, the target takes bludgeoning damage equal to {@damage 1d6} + your spellcasting ability modifier. Whether the attack hits or misses, the spell then ends on the stone.\nIf you cast this spell again, the spell ends on any pebbles still affected by your previous casting."
+  },
+  {
+    "slug": "message",
+    "name": "Message",
+    "desc": "You point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.\nYou can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn't have to follow a straight line and can travel freely around corners or through openings."
+  },
+  {
+    "slug": "minor-illusion",
+    "name": "Minor Illusion",
+    "desc": "You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.\nIf you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.\nIf you create an image of an object\u2014such as a chair, muddy footprints, or a small chest\u2014it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.\nIf a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence ({@skill Investigation}) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature."
+  },
+  {
+    "slug": "mold-earth",
+    "name": "Mold Earth",
+    "desc": "You choose a portion of dirt or stone that you can see within range and that fits within a 5-foot cube. You manipulate it in one of the following ways:\n- If you target an area of loose earth, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 feet away. This movement doesn't involve enough force to cause damage.\n- You cause shapes, colors, or both to appear on the dirt or stone, spelling out words, creating images, or shaping patterns. The changes last for 1 hour.\n- If the dirt or stone you target is on the ground, you cause it to become {@quickref difficult terrain||3}. Alternatively, you can cause the ground to become normal terrain if it is already {@quickref difficult terrain||3}. This change lasts for 1 hour.\nIf you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
+  },
+  {
+    "slug": "prestidigitation",
+    "name": "Prestidigitation",
+    "desc": "This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:\n- You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.\n- You instantaneously light or snuff out a candle, a torch, or a small campfire.\n- You instantaneously clean or soil an object no larger than 1 cubic foot.\n- You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.\n- You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.\n- You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.\nIf you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
+  },
+  {
+    "slug": "produce-flame",
+    "name": "Produce Flame",
+    "desc": "A flickering flame appears in your hand. The flame remains there for the duration and harms neither you nor your equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again.\nYou can also attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell attack. On a hit, the target takes {@damage 1d8} fire damage.\nThis spell's damage increases by {@damage 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8})."
+  },
+  {
+    "slug": "shape-water",
+    "name": "Shape Water",
+    "desc": "You choose an area of water that you can see within range and that fits within a 5-foot cube. You manipulate it in one of the following ways:\n- You instantaneously move or otherwise change the flow of the water as you direct, up to 5 feet in any direction. This movement doesn't have enough force to cause damage.\n- You cause the water to form into simple shapes and animate at your direction. This change lasts for 1 hour.\n- You change the water's color or opacity. The water must be changed in the same way throughout. This change lasts for 1 hour.\n- You freeze the water, provided that there are no creatures in it. The water unfreezes in 1 hour.\nIf you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
+  },
+  {
+    "slug": "thaumaturgy",
+    "name": "Thaumaturgy",
+    "desc": "You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical effects within range:\n- Your voice booms up to three times as loud as normal for 1 minute.\n- You cause flames to flicker, brighten, dim, or change color for 1 minute.\n- You cause harmless tremors in the ground for 1 minute.\n- You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.\n- You instantaneously cause an unlocked door or window to fly open or slam shut.\n- You alter the appearance of your eyes for 1 minute.\nIf you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action."
+  },
+  {
+    "slug": "alarm",
+    "name": "Alarm",
+    "desc": "You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.\nA mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.\nAn audible alarm produces the sound of a hand bell for 10 seconds within 60 feet."
+  },
+  {
+    "slug": "ceremony",
+    "name": "Ceremony",
+    "desc": "You perform a special religious ceremony that is infused with magic. When you cast the spell, choose one of the following rites, the target of which must be within 10 feet of you throughout the casting.\nAtonement\nYou touch one willing creature whose alignment has changed, and you make a {@dc 20} Wisdom ({@skill Insight}) check. On a successful check, you restore the target to its original alignment.\nBless Water\nYou touch one {@item vial|phb} of water and cause it to become {@item Holy Water (flask)|phb|holy water}.\nComing of Age\nYou touch one humanoid who is a young adult. For the next 24 hours, whenever the target makes an ability check, it can roll a {@dice d4} and add the number rolled to the ability check. A creature can benefit from this rite only once.\nDedication\nYou touch one humanoid who wishes to be dedicated to your god's service. For the next 24 hours, whenever the target makes a saving throw, it can roll a {@dice d4} and add the number rolled to the save. A creature can benefit from this rite only once.\nFuneral Rite\nYou touch one corpse, and for the next 7 days, the target can't become undead by any means short of a {@spell wish} spell.\nWedding\nYou touch adult humanoids willing to be bonded together in marriage. For the next 7 days, each target gains a +2 bonus to AC while they are within 30 feet of each other. A creature can benefit from this rite again only if widowed."
+  },
+  {
+    "slug": "chaos-bolt",
+    "name": "Chaos Bolt",
+    "desc": "You hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 2d8 + 1d6} damage. Choose one of the {@dice d8}s. The number rolled on that die determines the attack's damage type, as shown below.\nIf you roll the same number on both {@dice d8}s, the chaotic energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again.\nA creature can be targeted only once by each casting of this spell."
+  },
+  {
+    "slug": "color-spray",
+    "name": "Color Spray",
+    "desc": "A dazzling array of flashing, colored light springs from your hand. Roll {@dice 6d10}; the total is how many hit points of creatures this spell can effect. Creatures in a 15-foot cone originating from you are affected in ascending order of their current hit points (ignoring {@condition unconscious} creatures and creatures that can't see).\nStarting with the creature that has the lowest current hit points, each creature affected by this spell is {@condition blinded} until the end of your next turn. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected."
+  },
+  {
+    "slug": "command",
+    "name": "Command",
+    "desc": "You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.\nSome typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can't follow your command, the spell ends.\nApproach\nThe target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.\nDrop\nThe target drops whatever it is holding and then ends its turn.\nFlee\nThe target spends its turn moving away from you by the fastest available means.\nGrovel\nThe target falls {@condition prone} and then ends its turn.\nHalt\nThe target doesn't move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air."
+  },
+  {
+    "slug": "compelled-duel",
+    "name": "Compelled Duel",
+    "desc": "You attempt to compel a creature into a duel. One creature that you can see within range must make a Wisdom saving throw. On a failed save, the creature is drawn to you, compelled by your divine demand. For the duration, it has disadvantage on attack rolls against creatures other than you, and must make a Wisdom saving throw each time it attempts to move to a space that is more than 30 feet away from you; if it succeeds on this saving throw, this spell doesn't restrict the target's movement for that turn.\nThe spell ends if you attack any other creature, if you cast a spell that targets a hostile creature other than the target, if a creature friendly to you damages the target or casts a harmful spell on it, or if you end your turn more than 30 feet away from the target."
+  },
+  {
+    "slug": "create-or-destroy-water",
+    "name": "Create or Destroy Water",
+    "desc": "You either create or destroy water.\nCreate Water\nYou create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot cube within range, extinguishing exposed flames in the area.\nDestroy Water\nYou destroy up to 10 gallons of water in an open container within range. Alternatively, you destroy fog in a 30-foot cube within range."
+  },
+  {
+    "slug": "disguise-self",
+    "name": "Disguise Self",
+    "desc": "You make yourself\u2014including your clothing, armor, weapons, and other belongings on your person\u2014look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.\nThe changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.\nTo discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence ({@skill Investigation}) check against your spell save DC."
+  },
+  {
+    "slug": "dissonant-whispers",
+    "name": "Dissonant Whispers",
+    "desc": "You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes {@damage 3d6} psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A {@condition deafened} creature automatically succeeds on the save."
+  },
+  {
+    "slug": "ensnaring-strike",
+    "name": "Ensnaring Strike",
+    "desc": "The next time you hit a creature with a weapon attack before this spell ends, a writhing mass of thorny vines appears at the point of impact, and the target must succeed on a Strength saving throw or be {@condition restrained} by the magical vines until the spell ends. A Large or larger creature has advantage on this saving throw. If the target succeeds on the save, the vines shrivel away.\nWhile {@condition restrained} by this spell, the target takes {@damage 1d6} piercing damage at the start of each of its turns. A creature {@condition restrained} by the vines or one that can touch the creature can use its action to make a Strength check against your spell save DC. On a success, the target is freed."
+  },
+  {
+    "slug": "entangle",
+    "name": "Entangle",
+    "desc": "Grasping weeds and vines sprout from the ground in a 20-foot square starting from a point within range. For the duration, these plants turn the ground in the area into {@quickref difficult terrain||3}.\nA creature in the area when you cast the spell must succeed on a Strength saving throw or be {@condition restrained} by the entangling plants until the spell ends. A creature {@condition restrained} by the plants can use its action to make a Strength check against your spell save DC. On a success, it frees itself.\nWhen the spell ends, the conjured plants wilt away."
+  },
+  {
+    "slug": "faerie-fire",
+    "name": "Faerie Fire",
+    "desc": "Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.\nAny attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being {@condition invisible}."
+  }
+]

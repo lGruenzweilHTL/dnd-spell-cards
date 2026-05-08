@@ -30,6 +30,7 @@
                 {{ spell.summary | replace('\n', '<br><br>') | safe }}
             {% else %}
                 {{ spell.desc | replace('\n', '<br><br>') | safe }}
+                {% if spell.higher_level %}<br><br><strong>At Higher Levels:</strong> {{ spell.higher_level | replace('\n', '<br><br>') | safe }}{% endif %}
             {% endif %}
         </div>
 
