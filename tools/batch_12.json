@@ -1,0 +1,302 @@
+[
+  {
+    "slug": "water-walk",
+    "name": "Water Walk",
+    "desc": "This spell grants the ability to move across any liquid surface\u2014such as water, acid, mud, snow, quicksand, or lava\u2014as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures you can see within range gain this ability for the duration.\nIf you target a creature submerged in a liquid, the spell carries the target to the surface of the liquid at a rate of 60 feet per round.",
+    "higher_level": "",
+    "desc_length": 447,
+    "higher_level_length": 0,
+    "total_length": 447,
+    "max_desc_length": 446
+  },
+  {
+    "slug": "aura-of-purity",
+    "name": "Aura of Purity",
+    "desc": "Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can't become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions: {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition paralyzed}, {@condition poisoned}, and {@condition stunned}.",
+    "higher_level": "",
+    "desc_length": 501,
+    "higher_level_length": 0,
+    "total_length": 501,
+    "max_desc_length": 460
+  },
+  {
+    "slug": "charm-monster",
+    "name": "Charm Monster",
+    "desc": "You attempt to charm a creature you can see within range. It must make a Wisdom saving throw, and it does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is {@condition charmed} by you until the spell ends or until you or your companions do anything harmful to it. The {@condition charmed} creature is friendly to you. When the spell ends, the creature knows it was {@condition charmed} by you.",
+    "higher_level": "When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.",
+    "desc_length": 440,
+    "higher_level_length": 230,
+    "total_length": 670,
+    "max_desc_length": 183
+  },
+  {
+    "slug": "elemental-bane",
+    "name": "Elemental Bane",
+    "desc": "Choose one creature you can see within range, and choose one of the following damage types: acid, cold, fire, lightning, or thunder. The target must succeed on a Constitution saving throw or be affected by the spell for its duration. The first time each turn the affected target takes damage of the chosen type, the target takes an extra {@damage 2d6} damage of that type. Moreover, the target loses any resistance to that damage type until the spell ends.",
+    "higher_level": "When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.",
+    "desc_length": 456,
+    "higher_level_length": 230,
+    "total_length": 686,
+    "max_desc_length": 169
+  },
+  {
+    "slug": "evard's-black-tentacles",
+    "name": "Evard's Black Tentacles",
+    "desc": "Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in the area into {@quickref difficult terrain||3}.\nWhen a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or take {@damage 3d6} bludgeoning damage and be {@condition restrained} by the tentacles until the spell ends. A creature that starts its turn in the area and is already {@condition restrained} by the tentacles takes {@damage 3d6} bludgeoning damage.\nA creature {@condition restrained} by the tentacles can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself.",
+    "higher_level": "",
+    "desc_length": 772,
+    "higher_level_length": 0,
+    "total_length": 772,
+    "max_desc_length": 451
+  },
+  {
+    "slug": "freedom-of-movement",
+    "name": "Freedom of Movement",
+    "desc": "You touch a willing creature. For the duration, the target's movement is unaffected by {@quickref difficult terrain||3}, and spells and other magical effects can neither reduce the target's speed nor cause the target to be {@condition paralyzed} or {@condition restrained}.\nThe target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it {@condition grappled}. Finally, being underwater imposes no penalties on the target's movement or attacks.",
+    "higher_level": "",
+    "desc_length": 520,
+    "higher_level_length": 0,
+    "total_length": 520,
+    "max_desc_length": 452
+  },
+  {
+    "slug": "ice-storm",
+    "name": "Ice Storm",
+    "desc": "A hail of rock-hard ice pounds to the ground in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. Each creature in the cylinder must make a Dexterity saving throw. A creature takes {@damage 2d8} bludgeoning damage and {@damage 4d6} cold damage on a failed save, or half as much damage on a successful one.\nHailstones turn the storm's area of effect into {@quickref difficult terrain||3} until the end of your next turn.",
+    "higher_level": "When you cast this spell using a spell slot of 5th level or higher, the bludgeoning damage increases by {@scaledamage 2d8|4-9|1d8} for each slot level above 4th.",
+    "desc_length": 443,
+    "higher_level_length": 181,
+    "total_length": 624,
+    "max_desc_length": 208
+  },
+  {
+    "slug": "leomund's-secret-chest",
+    "name": "Leomund's Secret Chest",
+    "desc": "You hide a chest, and all its contents, on the Ethereal Plane. You must touch the chest and the miniature replica that serves as a material component for the spell. The chest can contain up to 12 cubic feet of nonliving material (3 feet by 2 feet by 2 feet).\nWhile the chest remains on the Ethereal Plane, you can use an action and touch the replica to recall the chest. It appears in an unoccupied space on the ground within 5 feet of you. You can send the chest back to the Ethereal Plane by using an action and touching both the chest and the replica.\nAfter 60 days, there is a cumulative {@chance 5|||Effect ends!|Effect continues} chance per day that the spell's effect ends. This effect ends if you cast this spell again, if the smaller replica chest is destroyed, or if you choose to end the spell as an action. If the spell ends and the larger chest is on the Ethereal Plane, it is irretrievably lost.",
+    "higher_level": "",
+    "desc_length": 909,
+    "higher_level_length": 0,
+    "total_length": 909,
+    "max_desc_length": 482
+  },
+  {
+    "slug": "mordenkainen's-faithful-hound",
+    "name": "Mordenkainen's Faithful Hound",
+    "desc": "You conjure a phantom watchdog in an unoccupied space that you can see within range, where it remains for the duration, until you dismiss it as an action, or until you move more than 100 feet away from it.\nThe hound is {@condition invisible} to all creatures except you and can't be harmed. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell, the hound starts barking loudly. The hound sees {@condition invisible} creatures and can see into the Ethereal Plane. It ignores illusions.\nAt the start of each of your turns, the hound attempts to bite one creature within 5 feet of it that is hostile to you. The hound's attack bonus is equal to your spellcasting ability modifier + your proficiency bonus. On a hit, it deals {@damage 4d8} piercing damage.",
+    "higher_level": "",
+    "desc_length": 836,
+    "higher_level_length": 0,
+    "total_length": 836,
+    "max_desc_length": 471
+  },
+  {
+    "slug": "mordenkainen's-private-sanctum",
+    "name": "Mordenkainen's Private Sanctum",
+    "desc": "You make an area within range magically secure. The area is a cube that can be as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration or until you use an action to dismiss it.\nWhen you cast the spell, you decide what sort of security the spell provides, choosing any or all of the following properties:\n- Sound can't pass through the barrier at the edge of the warded area.\n- The barrier of the warded area appears dark and foggy, preventing vision (including {@sense darkvision}) through it.\n- Sensors created by divination spells can't appear inside the protected area or pass through the barrier at its perimeter.\n- Creatures in the area can't be targeted by divination spells.\n- Nothing can teleport into or out of the warded area.\n- Planar travel is blocked within the warded area.\nCasting this spell on the same spot every day for a year makes this effect permanent.",
+    "higher_level": "When you cast this spell using a spell slot of 5th level or higher, you can increase the size of the cube by 100 feet for each slot level beyond 4th. Thus you could protect a cube that can be up to 200 feet on one side by using a spell slot of 5th level.",
+    "desc_length": 907,
+    "higher_level_length": 274,
+    "total_length": 1181,
+    "max_desc_length": 184
+  },
+  {
+    "slug": "otiluke's-resilient-sphere",
+    "name": "Otiluke's Resilient Sphere",
+    "desc": "A sphere of shimmering force encloses a creature or object of Large size or smaller within range. An unwilling creature must make a Dexterity saving throw. On a failed save, the creature is enclosed for the duration.\nNothing\u2014not physical objects, energy, or other spell effects\u2014can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.\nThe sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its action to push against the sphere's walls and thus roll the sphere at up to half the creature's speed. Similarly, the globe can be picked up and moved by other creatures.\nA {@spell disintegrate} spell targeting the globe destroys it without harming anything inside it.",
+    "higher_level": "",
+    "desc_length": 958,
+    "higher_level_length": 0,
+    "total_length": 958,
+    "max_desc_length": 431
+  },
+  {
+    "slug": "phantasmal-killer",
+    "name": "Phantasmal Killer",
+    "desc": "You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make a Wisdom saving throw. On a failed save, the target becomes {@condition frightened} for the duration. At the end of each of the target's turns before the spell ends, the target must succeed on a Wisdom saving throw or take {@damage 4d10} psychic damage. On a successful save, the spell ends.",
+    "higher_level": "When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@scaledamage 4d10|4-9|1d10} for each slot level above 4th.",
+    "desc_length": 469,
+    "higher_level_length": 171,
+    "total_length": 640,
+    "max_desc_length": 267
+  },
+  {
+    "slug": "sickening-radiance",
+    "name": "Sickening Radiance",
+    "desc": "Dim, greenish light spreads within a 30-foot-radius sphere centered on a point you choose within range. The light spreads around corners, and it lasts until the spell ends.\nWhen a creature moves into the spell's area for the first time on a turn or starts its turn there, that creature must succeed on a Constitution saving throw or take {@damage 4d10} radiant damage, and it suffers one level of {@condition exhaustion} and emits a dim, greenish light in a 5-foot radius. This light makes it impossible for the creature to benefit from being {@condition invisible}. The light and any levels of {@condition exhaustion} caused by this spell go away when the spell ends.",
+    "higher_level": "",
+    "desc_length": 668,
+    "higher_level_length": 0,
+    "total_length": 668,
+    "max_desc_length": 489
+  },
+  {
+    "slug": "stone-shape",
+    "name": "Stone Shape",
+    "desc": "You touch a stone object of Medium size or smaller or a section of stone no more than 5 feet in any dimension and form it into any shape that suits your purpose. So, for example, you could shape a large rock into a weapon, idol, or coffer, or make a small passage through a wall, as long as the wall is less than 5 feet thick. You could also shape a stone door or its frame to seal the door shut. The object you create can have up to two hinges and a latch, but finer mechanical detail isn't possible.",
+    "higher_level": "",
+    "desc_length": 501,
+    "higher_level_length": 0,
+    "total_length": 501,
+    "max_desc_length": 484
+  },
+  {
+    "slug": "storm-sphere",
+    "name": "Storm Sphere",
+    "desc": "A 20-foot-radius sphere of whirling air springs into existence, centered on a point you choose within range. The sphere remains for the spell's duration. Each creature in the sphere when it appears or that ends its turn there must succeed on a Strength saving throw or take {@damage 2d6} bludgeoning damage. The sphere's space is {@quickref difficult terrain||3}.\nUntil the spell ends, you can use a bonus action on each of your turns to cause a bolt of lightning to leap from the center of the sphere toward one creature you choose within 60 feet of the center. Make a ranged spell attack. You have advantage on the attack roll if the target is in the sphere. On a hit, the target takes {@damage 4d6} lightning damage.\nCreatures within 30 feet of the sphere have disadvantage on Wisdom ({@skill Perception}) checks made to listen.",
+    "higher_level": "When you cast this spell using a spell slot of 5th level or higher, the damage for each of its effects increases by {@scaledamage 2d6;4d6|4-9|1d6} for each slot level above 4th.",
+    "desc_length": 831,
+    "higher_level_length": 197,
+    "total_length": 1028,
+    "max_desc_length": 221
+  },
+  {
+    "slug": "summon-aberration",
+    "name": "Summon Aberration",
+    "desc": "You call forth an aberrant spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Aberrant Spirit|TCE} stat block. When you cast the spell, choose Beholderkin, Slaad, or Star Spawn. The creature resembles an aberration of that kind, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.\nThe creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger.",
+    "higher_level": "When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block.",
+    "desc_length": 728,
+    "higher_level_length": 162,
+    "total_length": 890,
+    "max_desc_length": 265
+  },
+  {
+    "slug": "summon-construct",
+    "name": "Summon Construct",
+    "desc": "You call forth the spirit of a construct. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Construct Spirit|TCE} stat block. When you cast the spell, choose a material: Clay, Metal, or Stone. The creature resembles a golem or a modron (your choice) made of the chosen material, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.\nThe creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger.",
+    "higher_level": "When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block.",
+    "desc_length": 771,
+    "higher_level_length": 162,
+    "total_length": 933,
+    "max_desc_length": 264
+  },
+  {
+    "slug": "summon-elemental",
+    "name": "Summon Elemental",
+    "desc": "You call forth an elemental spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature Elemental Spirit|TCE} stat block. When you cast the spell, choose an element: Air, Earth, Fire, or Water. The creature resembles a bipedal form wreathed in the chosen element, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.\nThe creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger.",
+    "higher_level": "When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block.",
+    "desc_length": 754,
+    "higher_level_length": 162,
+    "total_length": 916,
+    "max_desc_length": 267
+  },
+  {
+    "slug": "vitriolic-sphere",
+    "name": "Vitriolic Sphere",
+    "desc": "You point at a location within range, and a glowing 1-foot-diameter ball of emerald acid streaks there and explodes in a 20-foot-radius sphere. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 10d4} acid damage and another {@damage 5d4} acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage and no damage at the end of its next turn.",
+    "higher_level": "When you cast this spell using a spell slot of 5th level or higher, the initial damage increases by {@scaledamage 10d4|4-9|2d4} for each slot level above 4th.",
+    "desc_length": 441,
+    "higher_level_length": 178,
+    "total_length": 619,
+    "max_desc_length": 269
+  },
+  {
+    "slug": "wall-of-fire",
+    "name": "Wall of Fire",
+    "desc": "You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.\nWhen the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 5d8} fire damage, or half as much damage on a successful save.\nOne side of the wall, selected by you when you cast this spell, deals {@damage 5d8} fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.",
+    "higher_level": "When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@scaledamage 5d8|4-9|1d8} for each slot level above 4th.",
+    "desc_length": 785,
+    "higher_level_length": 169,
+    "total_length": 954,
+    "max_desc_length": 255
+  },
+  {
+    "slug": "antilife-shell",
+    "name": "Antilife Shell",
+    "desc": "A shimmering barrier extends out from you in a 10-foot radius and moves with you, remaining centered on you and hedging out creatures other than undead and constructs. The barrier lasts for the duration.\nThe barrier prevents an affected creature from passing or reaching through. An affected creature can cast spells or make attacks with ranged or reach weapons through the barrier.\nIf you move so that an affected creature is forced to pass through the barrier, the spell ends.",
+    "higher_level": "",
+    "desc_length": 478,
+    "higher_level_length": 0,
+    "total_length": 478,
+    "max_desc_length": 436
+  },
+  {
+    "slug": "awaken",
+    "name": "Awaken",
+    "desc": "After spending the casting time tracing magical pathways within a precious gemstone, you touch a Huge or smaller beast or plant. The target must have either no Intelligence score or an Intelligence of 3 or less. The target gains an Intelligence of 10. The target also gains the ability to speak one language you know. If the target is a plant, it gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a human's. Your DM chooses statistics appropriate for the awakened plant, such as the statistics for the {@creature awakened shrub} or the {@creature awakened tree}.\nThe awakened beast or plant is {@condition charmed} by you for 30 days or until you or your companions do anything harmful to it. When the {@condition charmed} condition ends, the awakened creature chooses whether to remain friendly to you, based on how you treated it while it was {@condition charmed}.",
+    "higher_level": "",
+    "desc_length": 922,
+    "higher_level_length": 0,
+    "total_length": 922,
+    "max_desc_length": 480
+  },
+  {
+    "slug": "banishing-smite",
+    "name": "Banishing Smite",
+    "desc": "The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with force, and the attack deals an extra {@damage 5d10} force damage to the target. Additionally, if this attack reduces the target to 50 hit points or fewer, you banish it. If the target is native to a different plane of existence than the one you're on, the target disappears, returning to its home plane. If the target is native to the plane you're on, the creature vanishes into a harmless demiplane. While there, the target is {@condition incapacitated}. It remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.",
+    "higher_level": "",
+    "desc_length": 717,
+    "higher_level_length": 0,
+    "total_length": 717,
+    "max_desc_length": 485
+  },
+  {
+    "slug": "bigby's-hand",
+    "name": "Bigby's Hand",
+    "desc": "You create a Large hand of shimmering, translucent force in an unoccupied space that you can see within range. The hand lasts for the spell's duration, and it moves at your command, mimicking the movements of your own hand.\nThe hand is an object that has AC 20 and hit points equal to your hit point maximum. If it drops to 0 hit points, the spell ends. It has a Strength of 26 ({@d20 8}) and a Dexterity of 10 ({@d20 0}). The hand doesn't fill its space.\nWhen you cast the spell and as a bonus action on your subsequent turns, you can move the hand up to 60 feet and then cause one of the following effects with it.\nClenched Fist\nThe hand strikes one creature or object within 5 feet of it. Make a melee spell attack for the hand using your game statistics. On a hit, the target takes {@damage 4d8} force damage.\nForceful Hand\nThe hand attempts to push a creature within 5 feet of it in a direction you choose. Make a check with the hand's Strength contested by the Strength ({@skill Athletics}) check of the target. If the target is Medium or smaller, you have advantage on the check. If you succeed, the hand pushes the target up to 5 feet plus a number of feet equal to five times your spellcasting ability modifier. The hand moves with the target to remain within 5 feet of it.\nGrasping Hand\nThe hand attempts to grapple a Huge or smaller creature within 5 feet of it. You use the hand's Strength score to resolve the grapple. If the target is Medium or smaller, you have advantage on the check. While the hand is grappling the target, you can use a bonus action to have the hand crush it. When you do so, the target takes bludgeoning damage equal to {@damage 2d6} + your spellcasting ability modifier.\nInterposing Hand\nThe hand interposes itself between you and a creature you choose until you give the hand a different command. The hand moves to stay between you and the target, providing you with {@quickref Cover||3||half cover} against the target. The target can't move through the hand's space if its Strength score is less than or equal to the hand's Strength score. If its Strength score is higher than the hand's Strength score, the target can move toward you through the hand's space, but that space is {@quickref difficult terrain||3} for the target.",
+    "higher_level": "When you cast this spell using a spell slot of 6th level or higher, the damage from the clenched fist option increases by {@scaledamage 4d8|5-9|2d8} and the damage from the grasping hand increases by {@scaledamage 2d6|5-9|2d6} for each slot level above 5th.",
+    "desc_length": 2266,
+    "higher_level_length": 277,
+    "total_length": 2543,
+    "max_desc_length": 131
+  },
+  {
+    "slug": "circle-of-power",
+    "name": "Circle of Power",
+    "desc": "Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects. Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw.",
+    "higher_level": "",
+    "desc_length": 536,
+    "higher_level_length": 0,
+    "total_length": 536,
+    "max_desc_length": 496
+  },
+  {
+    "slug": "cloudkill",
+    "name": "Cloudkill",
+    "desc": "You create a 20-foot-radius sphere of poisonous, yellow-green fog centered on a point you choose within range. The fog spreads around corners. It lasts for the duration or until strong wind disperses the fog, ending the spell. Its area is {@quickref Vision and Light|PHB|2||heavily obscured}.\nWhen a creature enters the spell's area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. The creature takes {@damage 5d8} poison damage on a failed save, or half as much damage on a successful one. Creatures are affected even if they hold their breath or don't need to breathe.\nThe fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings.",
+    "higher_level": "When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@scaledamage 5d8|5-9|1d8} for each slot level above 5th.",
+    "desc_length": 844,
+    "higher_level_length": 169,
+    "total_length": 1013,
+    "max_desc_length": 252
+  },
+  {
+    "slug": "commune",
+    "name": "Commune",
+    "desc": "You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.\nDivine beings aren't necessarily omniscient, so you might receive \"unclear\" as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the DM might offer a short phrase as an answer instead.\nIf you cast the spell two or more times before finishing your next long rest, there is a cumulative {@chance 25|||No answer!|Answer} chance for each casting after the first that you get no answer. The DM makes this roll in secret.",
+    "higher_level": "",
+    "desc_length": 754,
+    "higher_level_length": 0,
+    "total_length": 754,
+    "max_desc_length": 471
+  },
+  {
+    "slug": "commune-with-nature",
+    "name": "Commune with Nature",
+    "desc": "You briefly become one with nature and gain knowledge of the surrounding territory. In the outdoors, the spell gives you knowledge of the land within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn't function where nature has been replaced by construction, such as in dungeons and towns.\nYou instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:\n- terrain and bodies of water\n- prevalent plants, minerals, animals, or peoples\n- powerful celestials, fey, fiends, elementals, or undead\n- influence from other planes of existence\n- buildings\nFor example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns.",
+    "higher_level": "",
+    "desc_length": 847,
+    "higher_level_length": 0,
+    "total_length": 847,
+    "max_desc_length": 491
+  },
+  {
+    "slug": "cone-of-cold",
+    "name": "Cone of Cold",
+    "desc": "A blast of cold air erupts from your hands. Each creature in a 60-foot cone must make a Constitution saving throw. A creature takes {@damage 8d8} cold damage on a failed save, or half as much damage on a successful one.\nA creature killed by this spell becomes a frozen statue until it thaws.",
+    "higher_level": "When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@scaledamage 8d8|5-9|1d8} for each slot level above 5th.",
+    "desc_length": 291,
+    "higher_level_length": 169,
+    "total_length": 460,
+    "max_desc_length": 267
+  },
+  {
+    "slug": "conjure-volley",
+    "name": "Conjure Volley",
+    "desc": "You fire a piece of nonmagical ammunition from a ranged weapon or throw a nonmagical weapon into the air and choose a point within range. Hundreds of duplicates of the ammunition or weapon fall in a volley from above and then disappear. Each creature in a 40-foot-radius, 20-foot-high cylinder centered on that point must make a Dexterity saving throw. A creature takes {@damage 8d8} damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the ammunition or weapon.",
+    "higher_level": "",
+    "desc_length": 517,
+    "higher_level_length": 0,
+    "total_length": 517,
+    "max_desc_length": 457
+  }
+]

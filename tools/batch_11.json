@@ -1,0 +1,302 @@
+[
+  {
+    "slug": "ray-of-sickness",
+    "name": "Ray of Sickness",
+    "desc": "A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 2d8} poison damage and must make a Constitution saving throw. On a failed save, it is also {@condition poisoned} until the end of your next turn.",
+    "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 2d8|1-9|1d8} for each slot level above 1st.",
+    "desc_length": 306,
+    "higher_level_length": 169,
+    "total_length": 475,
+    "max_desc_length": 264
+  },
+  {
+    "slug": "tasha's-caustic-brew",
+    "name": "Tasha's Caustic Brew",
+    "desc": "A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell's duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes {@damage 2d4} acid damage at start of each of its turns.",
+    "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 2d4|1-9|2d4} for each slot level above 1st.",
+    "desc_length": 403,
+    "higher_level_length": 169,
+    "total_length": 572,
+    "max_desc_length": 265
+  },
+  {
+    "slug": "aganazzar's-scorcher",
+    "name": "Aganazzar's Scorcher",
+    "desc": "A line of roaring flame 30 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes {@damage 3d8} fire damage on a failed save, or half as much damage on a successful one.",
+    "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 3d8|2-9|1d8} for each slot level above 2nd.",
+    "desc_length": 264,
+    "higher_level_length": 169,
+    "total_length": 433,
+    "max_desc_length": 264
+  },
+  {
+    "slug": "aid",
+    "name": "Aid",
+    "desc": "Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration.",
+    "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, a target's hit points increase by an additional 5 for each slot level above 2nd.",
+    "desc_length": 189,
+    "higher_level_length": 168,
+    "total_length": 357,
+    "max_desc_length": 189
+  },
+  {
+    "slug": "blindness/deafness",
+    "name": "Blindness/Deafness",
+    "desc": "You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either {@condition blinded} or {@condition deafened} (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends.",
+    "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
+    "desc_length": 341,
+    "higher_level_length": 157,
+    "total_length": 498,
+    "max_desc_length": 269
+  },
+  {
+    "slug": "branding-smite",
+    "name": "Branding Smite",
+    "desc": "The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra {@damage 2d6} radiant damage to the target, which becomes visible if it's {@condition invisible}, and the target sheds dim light in a 5-foot radius and can't become {@condition invisible} until the spell ends.",
+    "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by {@scaledamage 2d6|2-9|1d6} for each slot level above 2nd.",
+    "desc_length": 367,
+    "higher_level_length": 175,
+    "total_length": 542,
+    "max_desc_length": 256
+  },
+  {
+    "slug": "cloud-of-daggers",
+    "name": "Cloud of Daggers",
+    "desc": "You fill the air with spinning daggers in a cube 5 feet on each side, centered on a point you choose within range. A creature takes {@damage 4d4} slashing damage when it enters the spell's area for the first time on a turn or starts its turn there.",
+    "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 4d4|2-9|2d4} for each slot level above 2nd.",
+    "desc_length": 248,
+    "higher_level_length": 169,
+    "total_length": 417,
+    "max_desc_length": 248
+  },
+  {
+    "slug": "dragon's-breath",
+    "name": "Dragon's Breath",
+    "desc": "You touch one willing creature and imbue it with the power to spew magical energy from its mouth, provided it has one. Choose acid, cold, fire, lightning, or poison. Until the spell ends, the creature can use an action to exhale energy of the chosen type in a 15-foot cone. Each creature in that area must make a Dexterity saving throw, taking {@damage 3d6} damage of the chosen type on a failed save, or half as much damage on a successful one.",
+    "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 3d6|2-9|1d6} for each slot level above 2nd.",
+    "desc_length": 445,
+    "higher_level_length": 169,
+    "total_length": 614,
+    "max_desc_length": 275
+  },
+  {
+    "slug": "hold-person",
+    "name": "Hold Person",
+    "desc": "Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be {@condition paralyzed} for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.",
+    "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.",
+    "desc_length": 270,
+    "higher_level_length": 230,
+    "total_length": 500,
+    "max_desc_length": 175
+  },
+  {
+    "slug": "invisibility",
+    "name": "Invisibility",
+    "desc": "A creature you touch becomes {@condition invisible} until the spell ends. Anything the target is wearing or carrying is {@condition invisible} as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.",
+    "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
+    "desc_length": 242,
+    "higher_level_length": 157,
+    "total_length": 399,
+    "max_desc_length": 242
+  },
+  {
+    "slug": "magic-weapon",
+    "name": "Magic Weapon",
+    "desc": "You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.",
+    "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the bonus increases to +2. When you use a spell slot of 6th level or higher, the bonus increases to +3.",
+    "desc_length": 137,
+    "higher_level_length": 191,
+    "total_length": 328,
+    "max_desc_length": 137
+  },
+  {
+    "slug": "melf's-acid-arrow",
+    "name": "Melf's Acid Arrow",
+    "desc": "A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes {@damage 4d4} acid damage immediately and {@damage 2d4} acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn.",
+    "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by {@scaledamage 4d4;2d4|2-9|1d4} for each slot level above 2nd.",
+    "desc_length": 396,
+    "higher_level_length": 198,
+    "total_length": 594,
+    "max_desc_length": 216
+  },
+  {
+    "slug": "mind-spike",
+    "name": "Mind Spike",
+    "desc": "You reach into the mind of one creature you can see within range. The target must make a Wisdom saving throw, taking {@damage 3d8} psychic damage on a failed save, or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can't become hidden from you, and if it's {@condition invisible}, it gains no benefit from that condition against you.",
+    "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 3d8|2-9|1d8} for each slot level above 2nd.",
+    "desc_length": 517,
+    "higher_level_length": 169,
+    "total_length": 686,
+    "max_desc_length": 266
+  },
+  {
+    "slug": "prayer-of-healing",
+    "name": "Prayer of Healing",
+    "desc": "Up to six creatures of your choice that you can see within range each regain hit points equal to {@dice 2d8} + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
+    "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the healing increases by {@scaledice 2d8|2-9|1d8} for each slot level above 2nd.",
+    "desc_length": 196,
+    "higher_level_length": 168,
+    "total_length": 364,
+    "max_desc_length": 196
+  },
+  {
+    "slug": "scorching-ray",
+    "name": "Scorching Ray",
+    "desc": "You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several.\nMake a ranged spell attack for each ray. On a hit, the target takes {@damage 2d6} fire damage.",
+    "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.",
+    "desc_length": 207,
+    "higher_level_length": 148,
+    "total_length": 355,
+    "max_desc_length": 207
+  },
+  {
+    "slug": "snilloc's-snowball-swarm",
+    "name": "Snilloc's Snowball Swarm",
+    "desc": "A flurry of magic snowballs erupts from a point you choose within range. Each creature in a 5-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes {@damage 3d6} cold damage on a failed save, or half as much damage on a successful one.",
+    "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 3d6|2-9|1d6} for each slot level above 2nd.",
+    "desc_length": 276,
+    "higher_level_length": 169,
+    "total_length": 445,
+    "max_desc_length": 260
+  },
+  {
+    "slug": "tasha's-mind-whip",
+    "name": "Tasha's Mind Whip",
+    "desc": "You psychically lash out at one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes {@damage 3d6} psychic damage, and it can't take a reaction until the end of its next turn. Moreover, on its next turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. On a successful save, the target takes half as much damage and suffers none of the spell's other effects.",
+    "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.",
+    "desc_length": 477,
+    "higher_level_length": 230,
+    "total_length": 707,
+    "max_desc_length": 178
+  },
+  {
+    "slug": "bestow-curse",
+    "name": "Bestow Curse",
+    "desc": "You touch a creature, and that creature must succeed on a Wisdom saving throw or become cursed for the duration of the spell. When you cast this spell, choose the nature of the curse from the following options:\n- Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score.\n- While cursed, the target has disadvantage on attack rolls against you.\n- While cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.\n- While the target is cursed, your attacks and spells deal an extra {@damage 1d8} necrotic damage to the target.\nA {@spell remove curse} spell ends this effect. At the DM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse's effect.",
+    "higher_level": "If you cast this spell using a spell slot of 4th level or higher, the duration is {@status concentration}, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn't require {@status concentration}.",
+    "desc_length": 906,
+    "higher_level_length": 471,
+    "total_length": 1377,
+    "max_desc_length": 0
+  },
+  {
+    "slug": "catnap",
+    "name": "Catnap",
+    "desc": "You make a calming gesture, and up to three willing creatures of your choice that you can see within range fall {@condition unconscious} for the spell's duration. The spell ends on a target early if it takes damage or someone uses an action to shake or slap it awake. If a target remains {@condition unconscious} for the full duration, that target gains the benefit of a short rest, and it can't be affected by this spell again until it finishes a long rest.",
+    "higher_level": "When you cast this spell using a spell slot of 4th level or higher, you can target one additional willing creature for each slot level above 3rd.",
+    "desc_length": 458,
+    "higher_level_length": 165,
+    "total_length": 623,
+    "max_desc_length": 261
+  },
+  {
+    "slug": "counterspell",
+    "name": "Counterspell",
+    "desc": "You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.",
+    "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.",
+    "desc_length": 365,
+    "higher_level_length": 199,
+    "total_length": 564,
+    "max_desc_length": 239
+  },
+  {
+    "slug": "dispel-magic",
+    "name": "Dispel Magic",
+    "desc": "Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, the spell ends.",
+    "higher_level": "When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used.",
+    "desc_length": 297,
+    "higher_level_length": 230,
+    "total_length": 527,
+    "max_desc_length": 235
+  },
+  {
+    "slug": "elemental-weapon",
+    "name": "Elemental Weapon",
+    "desc": "A nonmagical weapon you touch becomes a magic weapon. Choose one of the following damage types: acid, cold, fire, lightning, or thunder. For the duration, the weapon has a +1 bonus to attack rolls and deals an extra {@damage 1d4} damage of the chosen type when it hits.",
+    "higher_level": "When you cast this spell using a spell slot of 5th or 6th level, the bonus to attack rolls increases to +2 and the extra damage increases to {@scaledamage 1d4|3-9|2d4}. When you use a spell slot of 7th level or higher, the bonus increases to +3 and the extra damage increases to {@scaledamage 1d4|3-9|3d4}.",
+    "desc_length": 269,
+    "higher_level_length": 326,
+    "total_length": 595,
+    "max_desc_length": 83
+  },
+  {
+    "slug": "erupting-earth",
+    "name": "Erupting Earth",
+    "desc": "Choose a point you can see on the ground within range. A fountain of churned earth and stone erupts in a 20-foot cube centered on that point. Each creature in that area must make a Dexterity saving throw. A creature takes {@damage 3d12} bludgeoning damage on a failed save, or half as much damage on a successful one. Additionally, the ground in that area becomes {@quickref difficult terrain||3} until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand.",
+    "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 3d12|3-9|1d12} for each slot level above 3rd.",
+    "desc_length": 495,
+    "higher_level_length": 171,
+    "total_length": 666,
+    "max_desc_length": 256
+  },
+  {
+    "slug": "flame-arrows",
+    "name": "Flame Arrows",
+    "desc": "You touch a quiver containing arrows or bolts. When a target is hit by a ranged weapon attack using a piece of ammunition drawn from the quiver, the target takes an extra {@damage 1d6} fire damage. The spell's magic ends on a piece of ammunition when it hits or misses, and the spell ends when twelve pieces of ammunition have been drawn from the quiver.",
+    "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd.",
+    "desc_length": 354,
+    "higher_level_length": 201,
+    "total_length": 555,
+    "max_desc_length": 209
+  },
+  {
+    "slug": "fly",
+    "name": "Fly",
+    "desc": "You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.",
+    "higher_level": "When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.",
+    "desc_length": 179,
+    "higher_level_length": 157,
+    "total_length": 336,
+    "max_desc_length": 179
+  },
+  {
+    "slug": "intellect-fortress",
+    "name": "Intellect Fortress",
+    "desc": "For the duration, you or one willing creature you can see within range has resistance to psychic damage, as well as advantage on Intelligence, Wisdom, and Charisma saving throws.",
+    "higher_level": "When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd. The creatures must be within 30 feet of each other when you target them.",
+    "desc_length": 178,
+    "higher_level_length": 230,
+    "total_length": 408,
+    "max_desc_length": 173
+  },
+  {
+    "slug": "life-transference",
+    "name": "Life Transference",
+    "desc": "You sacrifice some of your health to mend another creature's injuries. You take {@damage 4d8} necrotic damage, which can't be reduced in any way, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take.",
+    "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 4d8|3-9|1d8} for each slot level above 3rd.",
+    "desc_length": 283,
+    "higher_level_length": 169,
+    "total_length": 452,
+    "max_desc_length": 254
+  },
+  {
+    "slug": "lightning-bolt",
+    "name": "Lightning Bolt",
+    "desc": "A stroke of lightning forming a line 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes {@damage 8d6} lightning damage on a failed save, or half as much damage on a successful one.\nThe lightning ignites flammable objects in the area that aren't being worn or carried.",
+    "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 8d6|3-9|1d6} for each slot level above 3rd.",
+    "desc_length": 372,
+    "higher_level_length": 169,
+    "total_length": 541,
+    "max_desc_length": 261
+  },
+  {
+    "slug": "mass-healing-word",
+    "name": "Mass Healing Word",
+    "desc": "As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to {@dice 1d4} + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
+    "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the healing increases by {@scaledice 1d4|3-9|1d4} for each slot level above 3rd.",
+    "desc_length": 229,
+    "higher_level_length": 168,
+    "total_length": 397,
+    "max_desc_length": 229
+  },
+  {
+    "slug": "vampiric-touch",
+    "name": "Vampiric Touch",
+    "desc": "The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes {@damage 3d6} necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action.",
+    "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 3d6|3-9|1d6} for each slot level above 3rd.",
+    "desc_length": 380,
+    "higher_level_length": 169,
+    "total_length": 549,
+    "max_desc_length": 262
+  }
+]

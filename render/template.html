@@ -31,6 +31,9 @@
             {% else %}
                 {{ spell.desc | replace('\n', '<br><br>') | safe }}
             {% endif %}
+            {% if spell.higher_level %}
+                <br><br><strong>At Higher Levels:</strong> {{ spell.higher_level | replace('\n', '<br><br>') | safe }}
+            {% endif %}
         </div>
 
         <div class="text-layer page">

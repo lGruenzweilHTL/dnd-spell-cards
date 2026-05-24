@@ -18,10 +18,12 @@ For each spell in your batch:
 
 ## Summary Guidelines
 - MUST be ≤ `max_desc_length` characters
-- Capture the spell's **core mechanics** (what it does, damage dice, duration)
-- Keep the flavor/tone but remove verbose descriptions
+- Include **all game-critical information**: damage dice, saves, duration, spell attack mechanics, key conditions
+- Preserve flavor/character while compressing verbose explanations (remove examples and detailed reasoning)
+- Remove redundant phrases but keep the essential "what happens" for each action
 - Use the same formatting as `desc` (line breaks with `\n`, not HTML)
-- Preserve any {@tag} notations if present (or clean them if requried by render pipeline)
+- Preserve any {@tag} notations (e.g., `{@damage 1d8}`, `{@condition blinded}`) - these help render pipeline
+- Example: "You create a ghostly hand to attack" is better than "The caster summons forth a spectral hand"
 
 ## Output Format
 Create an SQL file named `update_X.sql` (where X matches your batch number) with:
