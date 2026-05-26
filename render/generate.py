@@ -20,6 +20,10 @@ def clean_5etools_tags(text):
         return text
     # Match {@tag text} or {@tag text|other} and replace with just "text"
     text = re.sub(r"\{@[a-z]+\s+([^}|]+)(?:\|[^}]+)?\}", r"\1", text)
+    # Match malformed {@{tag} -> "DC" for {@dc}
+    text = re.sub(r"\{@\{([a-z]+)\}", r"DC" if "dc" in text.lower() else r"\1", text)
+    # Remove any remaining {@...} tags
+    text = re.sub(r"\{@[^}]*\}", "", text)
     return text
 
 
@@ -67,6 +71,8 @@ def fetch_spells(spell_names=None):
         spell["desc"] = clean_5etools_tags(spell["desc"])
         if spell["summary"]:
             spell["summary"] = clean_5etools_tags(spell["summary"])
+        if spell["higher_level"]:
+            spell["higher_level"] = clean_5etools_tags(spell["higher_level"])
 
         # Format Casting Time
         if spell["casting_time"]:
