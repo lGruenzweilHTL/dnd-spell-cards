@@ -22,8 +22,28 @@ def clean_5etools_tags(text):
     text = re.sub(r"\{@[a-z]+\s+([^}|]+)(?:\|[^}]+)?\}", r"\1", text)
     # Match malformed {@{tag} -> "DC" for {@dc}
     text = re.sub(r"\{@\{([a-z]+)\}", r"DC" if "dc" in text.lower() else r"\1", text)
+    # Match {@condition {charmed -> charmed (double brace)
+    text = re.sub(r"\{@condition\s+\{([^}]+)\}", r"\1", text)
+    # Match {1d6 (missing opening brace) -> 1d6
+    text = re.sub(r"\{([0-9]+d[0-9]+)", r"\1", text)
+    # Match @condition (missing opening brace)
+    text = re.sub(r"@condition\s+\{([^}]+)\}", r"\1", text)
+    # Match @condition without braces
+    text = re.sub(r"@condition\s+([a-z]+)", r"\1", text)
+    # Fix stray closing braces on dice (e.g., 10d6})
+    text = re.sub(r"(\d+d\d+)\}", r"\1", text)
+    # Fix {d8}: -> d8: patterns (malformed die)
+    text = re.sub(r"\{\s*d(\d+)\s*\}:", f"d\\1:", text)
+    # Remove {text||{...} patterns - take first part
+    text = re.sub(r"\{([^}|]+)\|\|[^}]*\}", r"\1", text)
+    # Remove {text} patterns (single word wrapped)
+    text = re.sub(r"\{([a-z]+)\}", r"\1", text)
     # Remove any remaining {@...} tags
     text = re.sub(r"\{@[^}]*\}", "", text)
+    # Remove any remaining @ tags
+    text = re.sub(r"@[a-z]+\s+", "", text)
+    # Remove any remaining standalone { or }
+    text = re.sub(r"[\{\}]", "", text)
     return text
 
 
